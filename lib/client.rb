@@ -5,7 +5,7 @@ require 'socket'
 puts "Please enter your username:"
 username = gets.chomp
 
-s = TCPSocket.new 'muledeer_meadow.local', 7777
+s = TCPSocket.new 'dbc04.local', 7777
 s.puts username
 
 line = ""
